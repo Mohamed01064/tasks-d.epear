@@ -1,0 +1,235 @@
+ul{
+    list-style: none;
+}
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* header */
+.header{
+    background:rgba(0, 0, 0,0.247);
+    padding: 8px;
+    color:#fff;
+    position: fixed;
+    width: 100%;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.5;
+    font-size: 19px;  
+}
+.logo{
+    flex-grow: 1;
+}
+/* home style */
+.home{
+    background-image: url(./imgs/background.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%; 
+}
+.home-content .title{
+    color: white;
+    margin-bottom:10px ;
+    font-size: 45px;
+}
+.home-descrp{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.home-butn{
+    background-color: rgb(71, 147, 71);
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    top:0;
+    left:0;
+}
+/* studio */
+.studio{
+    margin-top: 100px;
+}
+.studio-content{
+    text-align: center;
+}
+.studio-content .title{
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+} 
+.studio-desc{
+    font-size: 19px;
+    margin-bottom: 30px;
+    color: rgb(153, 132, 106);
+}
+.studio-imgs img {
+    width: 40%;
+    margin: 1.3% 1.3%;
+}
+
+/* team designer */
+
+.team {
+    background: #f9f9f9;
+}
+
+.team h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.team .team-member {
+    display: inline-block;
+    margin: 10px;
+}
+
+.team .team-member img {
+    width: 150px;
+    height: auto;
+    border: 50%;
+    position: relative;
+    margin-left: 100px;
+}
+
+.team .team-member h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.team .team-member p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-left: 80px;
+
+}
+
+/* contact */
+
+.contact{
+    background-image: url(./imgs/form.jpg);
+    background-size: cover;
+    
+
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px;
+    font-size: 16px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    background: white;
+    color: #0f0e0e;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.footer-section1,.footer-section2,.footer-section3{
+    width: 40%;
+    margin-right: 35px;
+}
+
+footer .footer-section1,.footer-section2,.footer-section3 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer .footer-section1,.footer-section2,.footer-section3 p {
+    font-size: 16px;
+}
+
+.icon{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+.footer-section3 i{
+    margin-right:20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
