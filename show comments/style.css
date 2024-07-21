@@ -1,0 +1,46 @@
+
+.post-card {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+    transition: transform 0.2s;
+
+  }
+
+  .btn-show-comments {
+    background-color: #28a745; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-show-comments:hover {
+    background-color: #218838; 
+  }
+  
+  
+  .comments-container {
+    background-color: #fff;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 15px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-top: 15px;
+  }
+  
+  .comment {
+    margin-bottom: 10px; 
+  }
+  
+  .comment-email {
+    color: #007bff; 
+    font-weight: bold; 
+  }
+  
+  .comment-body {
+    color: #555; 
+  }
+  
